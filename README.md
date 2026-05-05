@@ -33,12 +33,12 @@ python loadoutv2.py -p <path> -n <player name>
 
 **Single demo file:**
 ```
-python loadoutv2.py -p C:\demos\THGDemo.dem -n THG
+python loadoutv2.py -p C:\demos\drummerboyDemo.dem -n drummerboy
 ```
 
 **Directory of demos:**
 ```
-python loadoutv2.py -p C:\demos -n THG
+python loadoutv2.py -p C:\demos -n drummerboy
 ```
 
 When a directory is provided, the script processes every `.dem` file found in it. Any demo that does not contain the specified player is skipped automatically.
@@ -48,8 +48,8 @@ When a directory is provided, the script processes every `.dem` file found in it
 For each demo, the script prints the player's loadout at the start of every round, sorted by category:
 
 ```
->>> Processing: THGDemo.dem
-   --- Loadout for THG ---
+>>> Processing: drummerboyDemo.dem
+   --- Loadout for drummerboy ---
    Round 1: Glock-18
    Round 2: Desert Eagle
    Round 3: AK-47, Glock-18
